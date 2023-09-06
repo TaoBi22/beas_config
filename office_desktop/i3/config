@@ -43,6 +43,7 @@ bindsym XF86MonBrightnessDown exec light -U 5
 
 #Personal binds
 bindsym $mod+p exec xlock
+bindsym $mod+b exec "xlock -mode blank"
 bindsym $mod+c exec "google-chrome-stable --enable-logging --v=1"
 
 # Use Mouse+$mod to drag floating windows to their wanted position
